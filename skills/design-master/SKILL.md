@@ -11,7 +11,7 @@ Treat reference research and design-system extraction as prerequisites, not deco
 
 1. Classify the deliverable as `page`, `deck`, `dashboard`, `motion`, or `3d`.
 2. Inspect supplied URLs, screenshots, HTML, brand assets, copy and data. Do not invent facts, logos, product UI or metrics.
-3. If the request is open-ended, select 3–5 relevant sources from `references/resource-index.json`, collect 3–8 cases, and record URLs plus observable facts. Do not bulk-copy protected assets.
+3. If the request is open-ended, automatically select 3–5 relevant sources from `references/resource-index.json`, collect 3–8 cases, and record URLs plus observable facts. Do not require the user to request this research step. Do not bulk-copy protected assets.
 4. Extract an executable design system before generating: colors, typography, spacing, grid, imagery, components, charts, motion, responsive behavior and constraints. Use `references/prompt-pipeline.md` and `references/delivery-contracts.md`.
 5. For an open-ended new design, show three materially different visual directions as real previews. Skip this gate when the user provides a locked design system, an exact implementation target, or explicitly requests direct execution.
 6. Generate with the selected contract. Use `references/engine-recipes.md` to include only justified engines.
@@ -19,6 +19,8 @@ Treat reference research and design-system extraction as prerequisites, not deco
 8. Deliver source, design-system files, reference provenance, QA result and export instructions together.
 
 Ask at most one critical question at a time. Make reversible assumptions for noncritical gaps and state them early.
+
+If the user asks only for inspiration, references, bookmarks, or a design-resource guide, return a concise categorized link collection from the resource index. Do not force design generation.
 
 ## Load only what the task needs
 

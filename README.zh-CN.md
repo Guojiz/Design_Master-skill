@@ -2,26 +2,29 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-Design Master 是一个资源优先的 AI 设计编排插件。它先研究参考案例并提炼可执行设计系统，再生成响应式页面、HTML 演示、数据看板、动效或按需 3D，最后统一执行审美、UX、无障碍、响应式和性能检查。
+Design Master 是一个资源优先的人工智能设计编排插件。它先研究参考案例并提炼可执行设计系统，再生成响应式页面、网页演示、数据看板、动效或按需三维体验，最后统一执行审美、用户体验、无障碍、响应式和性能检查。
 
-当前版本是 `0.1.0` 基础架构，不是一个把动画和 3D 强塞进所有页面的模板生成器。
+使用者只需提供目标、内容、图片和数据。Design Master 会自动选择参考来源、提炼设计规范、判断是否调用图表、动效或三维引擎、生成作品并完成质量检查，不需要使用者逐步下达这些命令。
+
+当前版本是 `0.1.0` 基础架构，不是一个把动画和三维效果强塞进所有页面的模板生成器。
 
 ## 已完成
 
-- 六个指定开源 Skill 的源码、版本、依赖和许可证审计
+- 六个指定开源技能的源码、版本、依赖和许可证审计
 - Claude Design、Open Design 与四个前端引擎的接入边界
 - 国内外设计网站的可查询资源索引
-- 参考研究 → 设计 DNA → 页面生成 → Skill 封装 → 编辑器的提示词流程
-- page / deck / dashboard / motion / 3D 统一路由
+- 可供直接浏览和收藏的设计资源导览
+- 参考研究 → 设计规律 → 页面生成 → 技能封装 → 编辑器的提示词流程
+- 响应式网页、演示文稿、数据看板、动效和三维体验的统一路由
 - ECharts、GSAP、Spline、Three.js 条件调用模板
-- taste + UI/UX + accessibility + responsive + performance 质量门
-- 可执行的引擎选择器与 JSON Schema
+- 审美、用户体验、无障碍、响应式和性能质量门
+- 可执行的引擎选择器与数据格式规范
 
 ## 目录
 
 ```text
 .codex-plugin/plugin.json       Codex 插件清单
-skills/design-master/           主 Skill、参考资料、schema 与脚本
+skills/design-master/           主技能、参考资料、数据规范与脚本
 docs/RESOURCE_RESEARCH.md       资源研究报告
 docs/UPSTREAMS.lock.json        固定的上游版本与许可证
 THIRD_PARTY.md                  第三方接入与再发布边界
@@ -31,10 +34,12 @@ THIRD_PARTY.md                  第三方接入与再发布边界
 
 安装为 Codex 插件后，可以直接提出：
 
-- “先研究三个高相关参考，再为我的 AI 产品做落地页。”
-- “把这份内容做成 12 页 HTML 发布会演示，数据页用真实图表。”
-- “分析这个 URL 和截图，输出设计规范，再按规范重做页面。”
-- “审查现有 HTML 的模板感、层级、响应式、无障碍和动效。”
+- “为我的人工智能产品制作一个落地页。”
+- “把这份内容做成 12 页发布会演示，数据页使用真实图表。”
+- “参考这个网址和截图，重新设计页面。”
+- “检查并优化这个现有网站。”
+
+需要时，参考研究、设计规范提炼、引擎选择和质量检查都会自动完成。
 
 运行确定性引擎选择器：
 
@@ -43,6 +48,13 @@ python3 skills/design-master/scripts/plan_artifact.py request.json --pretty
 ```
 
 完整调查结论见 [资源研究报告](docs/RESOURCE_RESEARCH.md)。
+
+## 设计资源导览
+
+资源库也可以脱离生成流程，直接作为分类清晰的设计网站收藏夹和导览使用：
+
+- [设计资源导览](docs/DESIGN_RESOURCES.zh-CN.md)
+- [Design Resource Guide](docs/DESIGN_RESOURCES.md)
 
 ## 原则
 

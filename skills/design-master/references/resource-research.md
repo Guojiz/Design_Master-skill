@@ -2,6 +2,8 @@
 
 Use `resource-index.json` as a routing index, not as permission to scrape every site.
 
+If the user only wants inspiration, bookmarks, or navigation, return a curated categorized link list with a short purpose for each source and stop there. Artifact generation is not required.
+
 ## Select sources
 
 1. Classify the project and audience.

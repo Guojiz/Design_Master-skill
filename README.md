@@ -4,6 +4,8 @@
 
 Design Master is a resource-first AI design orchestration plugin. It researches relevant references and extracts an executable design system before generating responsive pages, HTML presentations, dashboards, motion experiences, or selective 3D. It then applies a unified review across visual quality, UX, accessibility, responsiveness, and performance.
 
+The user only needs to provide the goal, content, images, and data. Design Master automatically selects reference sources, derives the design system, chooses justified engines, generates the artifact, and runs quality checks. Users do not need to request each step separately.
+
 Version `0.1.0` establishes the foundation. It is not a template generator that forces animation and 3D into every page.
 
 ## Implemented
@@ -11,6 +13,7 @@ Version `0.1.0` establishes the foundation. It is not a template generator that 
 - Source, version, dependency, and license audits for the six required open-source Skills
 - Integration boundaries for Claude Design, Open Design, and four frontend engines
 - A queryable index of international and Chinese design resources
+- A human-readable design-resource guide that also works as a bookmark collection
 - A prompt pipeline covering reference research, design DNA, generation, Skill packaging, and editing
 - Unified routing for pages, decks, dashboards, motion, and 3D
 - Conditional integration recipes for ECharts, GSAP, Spline, and Three.js
@@ -31,10 +34,12 @@ THIRD_PARTY.md                  Third-party integration and redistribution bound
 
 After installing it as a Codex plugin, try prompts such as:
 
-- “Research three highly relevant references, then build a design system and landing page for my AI product.”
-- “Turn this content into a 12-slide HTML launch deck, using real charts on the data slides.”
-- “Analyze this URL and screenshot, produce a design specification, then redesign the page with it.”
-- “Audit this HTML for generic AI styling, hierarchy, responsiveness, accessibility, and motion.”
+- “Build a landing page for my AI product.”
+- “Turn this content into a 12-slide launch presentation with real charts.”
+- “Redesign this page using the supplied URL and screenshot as references.”
+- “Review and improve this existing website.”
+
+The research, design-system extraction, engine selection, and quality review happen automatically when required.
 
 Run the deterministic engine planner:
 
@@ -43,6 +48,13 @@ python3 skills/design-master/scripts/plan_artifact.py request.json --pretty
 ```
 
 See the [resource research report](docs/RESOURCE_RESEARCH.md) for the complete audit.
+
+## Design resource guide
+
+The resource library can also be used independently as a categorized bookmark and discovery guide:
+
+- [Design Resource Guide](docs/DESIGN_RESOURCES.md)
+- [设计资源导览](docs/DESIGN_RESOURCES.zh-CN.md)
 
 ## Principles
 
