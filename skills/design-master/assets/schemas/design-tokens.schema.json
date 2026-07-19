@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Guojiz/Design_Master-skill/schemas/design-tokens.schema.json",
+  "title": "Design Master design tokens",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["color", "type", "space", "motion", "chart", "performance"],
+  "properties": {
+    "color": {
+      "type": "object",
+      "description": "Semantic color groups such as bg, text, accent and state.",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": { "type": "string" }
+      }
+    },
+    "type": {
+      "type": "object",
+      "required": ["family", "size", "lineHeight"],
+      "properties": {
+        "family": { "type": "object", "additionalProperties": { "type": "string" } },
+        "size": { "type": "object", "additionalProperties": { "type": "string" } },
+        "lineHeight": {
+          "type": "object",
+          "additionalProperties": { "type": ["number", "string"] }
+        }
+      },
+      "additionalProperties": true
+    },
+    "space": {
+      "type": "object",
+      "minProperties": 3,
+      "additionalProperties": { "type": "string" }
+    },
+    "radius": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "shadow": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "motion": {
+      "type": "object",
+      "required": ["fast", "base", "slow", "ease"],
+      "properties": {
+        "fast": { "type": "number", "minimum": 0 },
+        "base": { "type": "number", "minimum": 0 },
+        "slow": { "type": "number", "minimum": 0 },
+        "ease": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "chart": {
+      "type": "object",
+      "required": ["categorical"],
+      "properties": {
+        "categorical": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": true
+    },
+    "performance": {
+      "type": "object",
+      "required": ["maxDpr", "threeDTextureBudgetMb"],
+      "properties": {
+        "maxDpr": { "type": "number", "minimum": 1, "maximum": 3 },
+        "threeDTextureBudgetMb": { "type": "number", "minimum": 0 }
+      },
+      "additionalProperties": true
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Guojiz/Design_Master-skill/schemas/artifact-request.schema.json",
+  "title": "Design Master artifact request",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["artifactType"],
+  "properties": {
+    "artifactType": {
+      "enum": ["page", "deck", "dashboard", "motion", "3d"]
+    },
+    "structuredData": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "present": { "type": "boolean", "default": false },
+        "shape": {
+          "enum": ["none", "category", "timeseries", "composition", "ranking", "relationship"],
+          "default": "none"
+        }
+      }
+    },
+    "motion": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "purpose": {
+          "enum": ["none", "hierarchy", "state", "story", "decorative"],
+          "default": "none"
+        }
+      }
+    },
+    "threeD": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mode": { "enum": ["none", "spline", "custom"], "default": "none" },
+        "central": { "type": "boolean", "default": false },
+        "sceneProvided": { "type": "boolean", "default": false }
+      }
+    },
+    "performance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mobilePriority": { "type": "boolean", "default": false },
+        "reducedMotionFallback": { "type": "boolean", "default": false }
+      }
+    }
+  }
+}

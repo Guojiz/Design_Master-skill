@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-19",
+  "policy": {
+    "defaultCaseCount": {
+      "min": 3,
+      "max": 8
+    },
+    "defaultSourceCount": {
+      "min": 3,
+      "max": 5
+    },
+    "store": [
+      "url",
+      "creator",
+      "title",
+      "observedAt",
+      "observableFacts",
+      "originalAnalysis"
+    ],
+    "doNotBulkStore": [
+      "copyrighted-images",
+      "videos",
+      "marketing-copy",
+      "page-source"
+    ]
+  },
+  "resources": [
+    {
+      "id": "awwwards",
+      "name": "Awwwards",
+      "url": "https://www.awwwards.com/",
+      "region": "global",
+      "role": "curated-showcase",
+      "specialties": ["creative-interaction", "web-animation", "art-direction", "experimental-web"],
+      "projectTypes": ["brand-site", "launch-page", "motion", "3d"],
+      "caution": "Award-level effects may exceed the current content and performance budget."
+    },
+    {
+      "id": "siteinspire",
+      "name": "SiteInspire",
+      "url": "https://www.siteinspire.com/",
+      "region": "global",
+      "role": "curated-showcase",
+      "specialties": ["minimal-web", "brand-site", "typography", "grid"],
+      "projectTypes": ["brand-site", "portfolio", "editorial", "landing-page"],
+      "caution": "Use industry and style filters; verify the current live site separately."
+    },
+    {
+      "id": "lapa-ninja",
+      "name": "Lapa Ninja",
+      "url": "https://www.lapa.ninja/",
+      "region": "global",
+      "role": "page-structure-library",
+      "specialties": ["landing-page", "full-page-capture", "conversion", "section-order"],
+      "projectTypes": ["landing-page", "saas", "ecommerce", "launch-page"],
+      "caution": "Analyze structure and conversion patterns; do not reproduce page copy or imagery."
+    },
+    {
+      "id": "land-book",
+      "name": "Land-book",
+      "url": "https://land-book.com/",
+      "region": "global",
+      "role": "curated-showcase",
+      "specialties": ["landing-page", "portfolio", "hero", "conversion"],
+      "projectTypes": ["landing-page", "portfolio", "saas", "brand-site"],
+      "caution": "Prioritize cases with comparable content depth."
+    },
+    {
+      "id": "godly",
+      "name": "Godly",
+      "url": "https://godly.website/",
+      "region": "global",
+      "role": "alias",
+      "aliasOf": "recent-design",
+      "specialties": ["experimental-web", "technology", "motion"],
+      "projectTypes": ["launch-page", "motion", "3d"],
+      "caution": "Currently redirects to Recent Design; count it once."
+    },
+    {
+      "id": "recent-design",
+      "name": "Recent Design",
+      "url": "https://recent.design/",
+      "region": "global",
+      "role": "recent-showcase",
+      "aliases": ["Godly"],
+      "specialties": ["recent-web", "experimental-web", "motion", "technology"],
+      "projectTypes": ["launch-page", "brand-site", "motion", "3d"],
+      "caution": "Trend recency is useful, but verify accessibility and production suitability."
+    },
+    {
+      "id": "behance",
+      "name": "Behance",
+      "url": "https://www.behance.net/",
+      "region": "global",
+      "role": "creator-portfolio-network",
+      "specialties": ["brand-system", "graphic-design", "web", "presentation", "3d", "case-study"],
+      "projectTypes": ["brand-site", "deck", "launch-page", "3d", "editorial"],
+      "caution": "Prefer complete case studies and record the creator."
+    },
+    {
+      "id": "dribbble",
+      "name": "Dribbble",
+      "url": "https://dribbble.com/",
+      "region": "global",
+      "role": "visual-concept-network",
+      "specialties": ["ui", "icon", "illustration", "component", "microinteraction"],
+      "projectTypes": ["app", "component-library", "landing-page"],
+      "caution": "A polished shot is not evidence of a complete or usable product flow."
+    },
+    {
+      "id": "mobbin",
+      "name": "Mobbin",
+      "url": "https://mobbin.com/",
+      "region": "global",
+      "role": "product-flow-library",
+      "specialties": ["real-app", "web-product", "user-flow", "platform-pattern"],
+      "projectTypes": ["app", "saas", "dashboard", "onboarding", "checkout"],
+      "caution": "Some content requires an account; do not bypass access controls."
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest",
+      "url": "https://www.pinterest.com/",
+      "region": "global",
+      "role": "discovery-board",
+      "specialties": ["moodboard", "color", "typography", "layout", "imagery"],
+      "projectTypes": ["brand-site", "editorial", "deck", "campaign"],
+      "caution": "Trace pins back to the original creator before citing or using an asset."
+    },
+    {
+      "id": "muzli",
+      "name": "Muzli",
+      "url": "https://muz.li/",
+      "region": "global",
+      "role": "trend-aggregator",
+      "specialties": ["design-trend", "creative-news", "source-discovery"],
+      "projectTypes": ["research", "brand-site", "app", "motion"],
+      "caution": "Use as a discovery layer and cite the original source."
+    },
+    {
+      "id": "fonts-in-use",
+      "name": "Fonts In Use",
+      "url": "https://fontsinuse.com/",
+      "region": "global",
+      "role": "typography-case-library",
+      "specialties": ["font-pairing", "real-use", "editorial", "brand-typography"],
+      "projectTypes": ["brand-site", "editorial", "deck", "campaign"],
+      "caution": "Check font licensing and language coverage separately."
+    },
+    {
+      "id": "typewolf",
+      "name": "Typewolf",
+      "url": "https://www.typewolf.com/",
+      "region": "global",
+      "role": "web-typography-guide",
+      "specialties": ["web-font", "font-pairing", "type-hierarchy"],
+      "projectTypes": ["brand-site", "landing-page", "editorial"],
+      "caution": "Verify current font availability, licensing and CJK coverage."
+    },
+    {
+      "id": "zcool",
+      "name": "站酷 ZCOOL",
+      "url": "https://www.zcool.com.cn/",
+      "region": "china",
+      "role": "creator-portfolio-network",
+      "specialties": ["china-brand", "poster", "illustration", "portfolio"],
+      "projectTypes": ["brand-site", "campaign", "deck", "editorial"],
+      "caution": "Record the creator and distinguish portfolio work from reusable assets."
+    },
+    {
+      "id": "uisdc",
+      "name": "优设 UISDC",
+      "url": "https://www.uisdc.com/",
+      "region": "china",
+      "role": "method-and-trend-publication",
+      "specialties": ["method", "trend", "tutorial", "case", "asset-discovery"],
+      "projectTypes": ["research", "app", "brand-site", "campaign"],
+      "caution": "Check publication date and original sources for trend claims."
+    },
+    {
+      "id": "uisdc-nav",
+      "name": "优设导航",
+      "url": "https://hao.uisdc.com/",
+      "region": "china",
+      "role": "tool-directory",
+      "specialties": ["design-tool", "font", "color", "image-library"],
+      "projectTypes": ["research", "asset-discovery"],
+      "caution": "Treat as navigation, not as the original source of design cases or assets."
+    },
+    {
+      "id": "ui-cn",
+      "name": "UI 中国",
+      "url": "https://www.ui.cn/",
+      "region": "china",
+      "role": "ui-community",
+      "specialties": ["ui", "interaction", "product-design", "china-product"],
+      "projectTypes": ["app", "saas", "dashboard", "component-library"],
+      "caution": "Validate product-flow claims against complete cases when possible."
+    },
+    {
+      "id": "huaban",
+      "name": "花瓣网",
+      "url": "https://huaban.com/",
+      "region": "china",
+      "role": "discovery-board",
+      "specialties": ["image-inspiration", "poster", "layout", "moodboard"],
+      "projectTypes": ["campaign", "deck", "editorial", "brand-site"],
+      "caution": "Trace images to the original creator; do not treat collection access as reuse permission."
+    },
+    {
+      "id": "topys",
+      "name": "TOPYS",
+      "url": "https://www.topys.cn/",
+      "region": "china",
+      "role": "creative-publication",
+      "specialties": ["brand", "advertising", "culture", "creative-case"],
+      "projectTypes": ["campaign", "brand-site", "deck", "editorial"],
+      "caution": "Extract concept and cultural context, not campaign copy."
+    },
+    {
+      "id": "gtn9",
+      "name": "古田路 9 号",
+      "url": "https://www.gtn9.com/",
+      "region": "china",
+      "role": "brand-and-graphic-showcase",
+      "specialties": ["brand-system", "packaging", "graphic-design"],
+      "projectTypes": ["brand-site", "campaign", "packaging", "deck"],
+      "caution": "Use complete identity systems for consistency analysis; preserve creator attribution."
+    },
+    {
+      "id": "shejipi",
+      "name": "设计癖",
+      "url": "https://www.shejipi.com/",
+      "region": "china",
+      "role": "product-design-publication",
+      "specialties": ["product-design", "industrial-design", "material", "object"],
+      "projectTypes": ["product-launch", "3d", "campaign"],
+      "caution": "Separate reporting imagery from assets licensed for reuse."
+    }
+  ]
+}
