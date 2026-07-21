@@ -1,0 +1,41 @@
+{
+  "name": "design-master",
+  "version": "0.1.0",
+  "description": "Resource-first AI designer plugin for responsive pages, HTML decks, dashboards, motion and selective 3D.",
+  "author": {
+    "name": "Gu0",
+    "url": "https://github.com/Guojiz"
+  },
+  "homepage": "https://github.com/Guojiz/Design_Master-skill",
+  "repository": "https://github.com/Guojiz/Design_Master-skill",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "frontend",
+    "html",
+    "presentations",
+    "data-visualization",
+    "motion"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Design Master",
+    "shortDescription": "Research-first AI designer plugin for pages and decks",
+    "longDescription": "Selects relevant design references, extracts an executable design system, generates responsive pages or HTML presentations, conditionally uses charts, motion or 3D, and runs a unified quality review.",
+    "developerName": "Gu0",
+    "category": "Design",
+    "capabilities": [
+      "Research",
+      "Generate",
+      "Edit",
+      "Validate"
+    ],
+    "websiteURL": "https://github.com/Guojiz/Design_Master-skill",
+    "defaultPrompt": [
+      "研究参考案例后，为这个主题建立设计系统并制作页面。",
+      "把这些内容做成可演示的 HTML deck，先给设计方向。",
+      "审查这个页面的审美、UX、响应式和动效，并修正问题。"
+    ],
+    "brandColor": "#6C5CE7"
+  }
+}

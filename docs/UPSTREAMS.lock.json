@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "auditedAt": "2026-07-19",
+  "repositories": [
+    {
+      "id": "frontend-slides",
+      "url": "https://github.com/zarazhangrui/frontend-slides",
+      "version": "2.1.0",
+      "commit": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "license": "MIT",
+      "integrationMode": "adapt-with-attribution"
+    },
+    {
+      "id": "huashu-design",
+      "url": "https://github.com/alchaincyf/huashu-design",
+      "version": "v2.0+main",
+      "commit": "32cc58127f6074965e72530a2b593dac43572ec6",
+      "license": "MIT",
+      "integrationMode": "modular-adaptation-with-attribution"
+    },
+    {
+      "id": "guizang-ppt-skill",
+      "url": "https://github.com/op7418/guizang-ppt-skill",
+      "version": "v1.1.0+main",
+      "commit": "82fe5ae129e8c2a12e1155fcabed6703342749d6",
+      "license": "AGPL-3.0-only",
+      "integrationMode": "external-adapter-or-clean-room-concepts"
+    },
+    {
+      "id": "html-ppt-skill",
+      "url": "https://github.com/lewislulu/html-ppt-skill",
+      "version": "unversioned@f3a8435d3901",
+      "commit": "f3a8435d3901697d5ac5e64d356c933637e43107",
+      "license": "MIT",
+      "integrationMode": "adapt-with-attribution"
+    },
+    {
+      "id": "taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "version": "plugin-1.0.0/default-v2-experimental",
+      "commit": "7c397f22d3af6f2b3f1925eb147d8e8801086151",
+      "license": "MIT",
+      "integrationMode": "quality-rules-adaptation-with-attribution"
+    },
+    {
+      "id": "ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "version": "skill-2.11.0/cli-2.5.0",
+      "commit": "f8ac5e1266dba8354ea96e19994d9f4345e7ec31",
+      "license": "MIT",
+      "integrationMode": "external-adapter-first"
+    },
+    {
+      "id": "open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "version": "0.15.1",
+      "commit": "6b90486c97967633bfcfb0cd4d3c9b3314bf0caf",
+      "license": "Apache-2.0-with-bundled-exceptions",
+      "integrationMode": "optional-cli-or-mcp-backend"
+    }
+  ],
+  "packages": [
+    {
+      "id": "echarts",
+      "package": "echarts",
+      "version": "6.1.0",
+      "license": "Apache-2.0",
+      "integrationMode": "optional-npm-dependency"
+    },
+    {
+      "id": "gsap",
+      "package": "gsap",
+      "version": "3.15.0",
+      "license": "GreenSock-standard-no-charge-license",
+      "integrationMode": "optional-npm-dependency-no-vendoring"
+    },
+    {
+      "id": "spline-runtime",
+      "package": "@splinetool/runtime",
+      "version": "1.12.98",
+      "license": "NOASSERTION",
+      "integrationMode": "user-export-or-hosted-embed-only"
+    },
+    {
+      "id": "spline-viewer",
+      "package": "@splinetool/viewer",
+      "version": "1.12.98",
+      "license": "NOASSERTION",
+      "integrationMode": "user-export-or-hosted-embed-only"
+    },
+    {
+      "id": "three",
+      "package": "three",
+      "version": "0.185.1",
+      "license": "MIT",
+      "integrationMode": "optional-npm-dependency"
+    }
+  ]
+}
