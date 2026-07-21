@@ -1,7 +1,7 @@
 {
   "name": "design-master",
   "version": "0.1.0",
-  "description": "Resource-first AI design orchestration for responsive pages, HTML decks, dashboards, motion and selective 3D.",
+  "description": "Resource-first AI designer plugin for responsive pages, HTML decks, dashboards, motion and selective 3D.",
   "author": {
     "name": "Gu0",
     "url": "https://github.com/Guojiz"
@@ -20,7 +20,7 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Design Master",
-    "shortDescription": "Research-first AI designer for pages and decks",
+    "shortDescription": "Research-first AI designer plugin for pages and decks",
     "longDescription": "Selects relevant design references, extracts an executable design system, generates responsive pages or HTML presentations, conditionally uses charts, motion or 3D, and runs a unified quality review.",
     "developerName": "Gu0",
     "category": "Design",

@@ -2,7 +2,7 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-Design Master is a resource-first AI design orchestration plugin. It researches relevant references and extracts an executable design system before generating responsive pages, HTML presentations, dashboards, motion experiences, or selective 3D. It then applies a unified review across visual quality, UX, accessibility, responsiveness, and performance.
+Design Master is a resource-first AI designer plugin. It researches relevant references and extracts an executable design system before generating responsive pages, HTML presentations, dashboards, motion experiences, or selective 3D. It then applies a unified review across visual quality, UX, accessibility, responsiveness, and performance.
 
 The user only needs to provide the goal, content, images, and data. Design Master automatically selects reference sources, derives the design system, chooses justified engines, generates the artifact, and runs quality checks. Users do not need to request each step separately.
 
