@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/Guojiz/Design_Master-skill/schemas/artifact-request.schema.json",
+  "$id": "https://github.com/Guojiz/design-master/schemas/artifact-request.schema.json",
   "title": "Design Master artifact request",
   "type": "object",
   "additionalProperties": false,

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/Guojiz/Design_Master-skill/schemas/design-tokens.schema.json",
+  "$id": "https://github.com/Guojiz/design-master/schemas/design-tokens.schema.json",
   "title": "Design Master design tokens",
   "type": "object",
   "additionalProperties": false,

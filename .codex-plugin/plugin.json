@@ -6,8 +6,8 @@
     "name": "Gu0",
     "url": "https://github.com/Guojiz"
   },
-  "homepage": "https://github.com/Guojiz/Design_Master-skill",
-  "repository": "https://github.com/Guojiz/Design_Master-skill",
+  "homepage": "https://github.com/Guojiz/design-master",
+  "repository": "https://github.com/Guojiz/design-master",
   "license": "MIT",
   "keywords": [
     "design",
@@ -30,7 +30,7 @@
       "Edit",
       "Validate"
     ],
-    "websiteURL": "https://github.com/Guojiz/Design_Master-skill",
+    "websiteURL": "https://github.com/Guojiz/design-master",
     "defaultPrompt": [
       "研究参考案例后，为这个主题建立设计系统并制作页面。",
       "把这些内容做成可演示的 HTML deck，先给设计方向。",
