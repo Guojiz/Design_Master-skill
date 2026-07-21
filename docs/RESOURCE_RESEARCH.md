@@ -263,7 +263,7 @@ Spline 官方支持 public URL / iframe、`<spline-viewer>`、Vanilla JS / React
 | Pinterest | <https://www.pinterest.com/> | 情绪板、配色、字体、排版 | 聚类灵感，回溯原始来源 |
 | Muzli | <https://muz.li/> | 趋势聚合 | 主题发现与候选来源 |
 | Fonts In Use | <https://fontsinuse.com/> | 字体搭配 | 真实场景、字号层级、字体来源 |
-| Typewolf | <https://typewolf.com/> | 网页字体 | 字体组合、标题 / 正文角色 |
+| Typewolf | <https://www.typewolf.com/> | 网页字体 | 字体组合、标题 / 正文角色 |
 | 站酷 ZCOOL | <https://www.zcool.com.cn/> | 国内品牌、海报、插画 | 国内语境与完整作品集 |
 | 优设 UISDC | <https://www.uisdc.com/> | 方法论、趋势、案例、素材 | 方法与教程，核对发布日期 |
 | 优设导航 | <https://hao.uisdc.com/> | 工具、字体、配色、图库 | 作为二级导航，不作为原创案例源 |
