@@ -2,7 +2,7 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-Design Master 是一个资源优先的人工智能设计编排插件。它先研究参考案例并提炼可执行设计系统，再生成响应式页面、网页演示、数据看板、动效或按需三维体验，最后统一执行审美、用户体验、无障碍、响应式和性能检查。
+Design Master 是一个资源优先的 AI 设计师插件。它先研究参考案例并提炼可执行设计系统，再生成响应式页面、网页演示、数据看板、动效或按需三维体验，最后统一执行审美、用户体验、无障碍、响应式和性能检查。
 
 使用者只需提供目标、内容、图片和数据。Design Master 会自动选择参考来源、提炼设计规范、判断是否调用图表、动效或三维引擎、生成作品并完成质量检查，不需要使用者逐步下达这些命令。
 
@@ -66,4 +66,4 @@ python3 skills/design-master/scripts/plan_artifact.py request.json --pretty
 
 ## 许可证
 
-本仓库原创内容采用 MIT。第三方项目和运行时保留各自许可证，详见 [THIRD_PARTY.md](THIRD_PARTY.md)。
+本仓库原创内容采用 MIT。第三方项目和运行时保留各自许可证，详见 [THIRD_PARTY.zh-CN.md](THIRD_PARTY.zh-CN.md)。
