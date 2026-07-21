@@ -362,7 +362,7 @@ flowchart TD
 ### P0：资源优先基础
 
 1. 固化本报告与上游锁文件。
-2. 建立 Design Master Skill 路由和工具中立中间格式。
+2. 建立 Design Master 的技能路由和工具中立中间格式。
 3. 建立设计资源索引与按项目选源规则。
 4. 提供 ECharts、GSAP、Spline、Three.js 的条件调用模板。
 5. 提供 page / deck / dashboard 三类生成协议与统一质量门。
