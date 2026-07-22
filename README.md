@@ -49,6 +49,13 @@ python3 skills/design-master/scripts/plan_artifact.py request.json --pretty
 
 See the [resource research report](docs/RESOURCE_RESEARCH.md) for the complete audit.
 
+## Optional generated-asset pipeline
+
+The experimental [`integrations/genblaze/`](integrations/genblaze/) path uses the
+official Genblaze SDK to generate justified design imagery and persist assets
+and provenance in Backblaze B2. It includes an executable dry-run; live provider
+and storage verification remains required before this is described as deployed.
+
 ## Design resource guide
 
 The resource library can also be used independently as a categorized bookmark and discovery guide:
