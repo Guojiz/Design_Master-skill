@@ -72,7 +72,7 @@ def run(prompt: str, model: str, output_dir: Path) -> dict[str, object]:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("prompt", help="Reference-derived prompt for the design asset")
-    parser.add_argument("--model", default="dall-e-3")
+    parser.add_argument("--model", default="gpt-image-2")
     parser.add_argument("--output-dir", default="output/genblaze")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
