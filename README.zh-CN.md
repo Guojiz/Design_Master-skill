@@ -2,6 +2,20 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+<p align="center">
+  <a href="https://guojiz.github.io/"><img alt="官网" src="https://img.shields.io/badge/官网-guojiz.github.io-111111?style=flat-square"></a>
+  <a href="https://github.com/Guojiz/Sponsors"><img alt="赞助" src="https://img.shields.io/badge/赞助-支持-111111?style=flat-square"></a>
+</p>
+
+<p align="center">
+  <a href="https://guojiz.github.io/"><strong>作者官网</strong></a>
+  · <a href="https://x.com/guojizh">X</a>
+  · <a href="https://space.bilibili.com/3493114115263006">哔哩哔哩</a>
+  · <a href="https://youtube.com/@guojizh">YouTube</a>
+  · <a href="https://github.com/Guojiz/Sponsors">赞助</a>
+</p>
+
+
 Design Master 是一个资源优先的 AI 设计师插件。它先研究参考案例并提炼可执行设计系统，再生成响应式页面、网页演示、数据看板、动效或按需三维体验，最后统一执行审美、用户体验、无障碍、响应式和性能检查。
 
 使用者只需提供目标、内容、图片和数据。Design Master 会自动选择参考来源、提炼设计规范、判断是否调用图表、动效或三维引擎、生成作品并完成质量检查，不需要使用者逐步下达这些命令。
@@ -63,6 +77,30 @@ python3 skills/design-master/scripts/plan_artifact.py request.json --pretty
 - 不逢页面必加动画、图表或 3D。
 - 不用假数据制造“高级感”。
 - 编辑模式和播放模式隔离，导出物保持干净。
+
+## 官网与其它推广
+
+这个仓库可以没有独立产品站。对外入口是作者官网、本 GitHub 仓库，以及下面这些项目。
+
+| | |
+| --- | --- |
+| **项目页** | https://guojiz.github.io/design-master/ |
+| **作者官网** | https://guojiz.github.io/ |
+| **X** | https://x.com/guojizh |
+| **哔哩哔哩** | https://space.bilibili.com/3493114115263006 |
+| **YouTube** | https://youtube.com/@guojizh |
+| **赞助** | https://github.com/Guojiz/Sponsors |
+
+### 其它开源项目
+
+- [GitLearnOS](https://guojiz.github.io/gitlearnos/) — 学习者拥有的 Git 记忆
+- [Word Snap](https://guojiz.github.io/word-snap/) — 双语单词匹配
+- [AI Subtitle Extractor](https://github.com/Guojiz/ai-subtitle-extractor)
+- [Design Master](https://github.com/Guojiz/design-master)
+- [AI Video Studio](https://github.com/Guojiz/comfyui-minimax-h3-studio)
+- [llm-provider-compat](https://github.com/Guojiz/llm-provider-compat)
+- [Claude Desktop Tweak Models](https://github.com/Guojiz/claude-desktop-tweak-models)
+- 全部项目：[github.com/Guojiz](https://github.com/Guojiz)
 
 ## 许可证
 

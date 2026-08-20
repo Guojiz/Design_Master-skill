@@ -2,6 +2,20 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+<p align="center">
+  <a href="https://guojiz.github.io/"><img alt="Website" src="https://img.shields.io/badge/website-guojiz.github.io-111111?style=flat-square"></a>
+  <a href="https://github.com/Guojiz/Sponsors"><img alt="Sponsor" src="https://img.shields.io/badge/sponsor-support-111111?style=flat-square"></a>
+</p>
+
+<p align="center">
+  <a href="https://guojiz.github.io/"><strong>Author website</strong></a>
+  · <a href="https://x.com/guojizh">X</a>
+  · <a href="https://space.bilibili.com/3493114115263006">Bilibili</a>
+  · <a href="https://youtube.com/@guojizh">YouTube</a>
+  · <a href="https://github.com/Guojiz/Sponsors">Sponsor</a>
+</p>
+
+
 Design Master is a resource-first AI designer plugin. It researches relevant references and extracts an executable design system before generating responsive pages, HTML presentations, dashboards, motion experiences, or selective 3D. It then applies a unified review across visual quality, UX, accessibility, responsiveness, and performance.
 
 The user only needs to provide the goal, content, images, and data. Design Master automatically selects reference sources, derives the design system, chooses justified engines, generates the artifact, and runs quality checks. Users do not need to request each step separately.
@@ -63,6 +77,30 @@ The resource library can also be used independently as a categorized bookmark an
 - Do not add animation, charts, or 3D unless the content justifies them.
 - Do not invent data to create a false sense of sophistication.
 - Keep editing and playback isolated so exported artifacts remain clean.
+
+## Website and other links
+
+No separate product site is required for this repository. The public face of the work is the author website, this GitHub repo, and the projects below.
+
+| | |
+| --- | --- |
+| **Project page** | https://guojiz.github.io/design-master/ |
+| **Author website** | https://guojiz.github.io/ |
+| **X** | https://x.com/guojizh |
+| **Bilibili** | https://space.bilibili.com/3493114115263006 |
+| **YouTube** | https://youtube.com/@guojizh |
+| **Sponsor** | https://github.com/Guojiz/Sponsors |
+
+### Other open-source projects
+
+- [GitLearnOS](https://guojiz.github.io/gitlearnos/) — learner-owned Git memory
+- [Word Snap](https://guojiz.github.io/word-snap/) — bilingual vocabulary matching
+- [AI Subtitle Extractor](https://github.com/Guojiz/ai-subtitle-extractor)
+- [Design Master](https://github.com/Guojiz/design-master)
+- [AI Video Studio](https://github.com/Guojiz/comfyui-minimax-h3-studio)
+- [llm-provider-compat](https://github.com/Guojiz/llm-provider-compat)
+- [Claude Desktop Tweak Models](https://github.com/Guojiz/claude-desktop-tweak-models)
+- All projects: [github.com/Guojiz](https://github.com/Guojiz)
 
 ## License
 
